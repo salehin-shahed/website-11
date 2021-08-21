@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1400px;
+    margin: auto;
+}
+
+
+/* Header Section */
+
+.header {
+    background: #22c3a3;
+}
+
+.logo h2 {
+    color: #e9edec;
+    padding: 20px 30px;
+    font-weight: 300;
+}
+
+.menu ul {
+    margin-right: 30px;
+}
+
+.menu ul li {
+    display: inline-block;
+
+}
+
+.menu ul li a {
+    display: inline-block;
+    color: #e9edec;
+    text-decoration: none;
+    padding: 25px 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+
+/* Banner Section */
+
+.banner {
+    background: url(./images/header-bg01.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 280px 0;
+}
+
+
+.text h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+
+}
+
+.text p {
+    color: #d7f4ef;
+    margin: 15px 0 60px 0;
+    font-weight: 600;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Service Section */
+
+.service {
+    margin: 100px 0 0;
+    border-bottom: 2px solid #0dbf9b;
+}
+
+.service-title {
+    box-sizing: border-box;
+}
+
+.service-title h2 {
+    color: #555555;
+    font-size: 30px;
+}
+
+.service-title p {
+    color: #737373;
+    padding: 30px 0 130px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item {
+    width: 25%;
+}
+
+.service-icon .s-icon {
+    color: #0dbf9b;
+    font-size: 30px;
+}
+
+.service-text h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #5d5d5d;
+    padding: 17px;
+}
+
+.service-text p {
+    padding: 0 70px 130px;
+    color: #737373;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+
+/* About Section */
+
+.about {
+    margin: 60px 0;
+}
+
+.about-title h2 {
+    color: #555555;
+    font-size: 30px;
+}
+
+.about-title p {
+    color: #8f8f8f;
+    padding: 20px 0 50px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.about-image {
+    width: 35%;
+    margin-left: 10%;
+}
+
+.about-image img {
+    margin-right: 50px;
+}
+
+.about-write {
+    font-family: 'Roboto', sans-serif;
+    width: 52%;
+}
+
+.about-write h2 {
+    font-weight: 400;
+    font-size: 21px;
+    color: #626262;
+}
+
+.about-write p {
+    margin: 10px 0 15px 0;
+    padding: 0px 150px 0 0;
+    font-weight: 300;
+    font-size: 15px;
+    color: #626262;
+}
+
+
+/* Contact Section */
+
+.contact-title h2 {
+    font-size: 30px;
+    color: #545454;
+}
+
+.contact-title p {
+    font-size: 15px;
+    padding: 25px 0 85px 0;
+    color: #787878;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact {
+    background: #f6f6f6;
+    padding: 80px 0;
+}
+
+.contact-location {
+    width: 33%;
+}
+
+.contact-icon {
+    margin-bottom: 10px;
+}
+
+.contact-icon span {
+    color: #0dbf9b;
+}
+
+.contact-text p {
+    color: #787878;
+    line-height: 1.4em;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Social Icon */
+
+.social-icon {
+    background: #0dbf9b;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.social-icon span {
+    padding: 0 10px;
+}
+
+
+/* Footer Section */
+
+.footer {
+    background: #222222;
+    color: #545454;
+    padding: 15px 0;
+    font-family: 'Roboto', sans-serif;
+}
